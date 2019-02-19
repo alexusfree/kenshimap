@@ -1,20 +1,35 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
 <head>
-  <!-- Тег meta для указания кодировки -->
-  <meta charset="utf-8">
+<title>Карта мира Kenshi</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="Kenshi, Кенши, Карта, map, интерактивная карта , interactive map" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> 
+
+<link rel="stylesheet" href="./js/leaflet.css" />
+<link rel="stylesheet" href="./js/leaflet-search.css" />
+<link rel="stylesheet" href="./js/Control.Coordinates.css" />
+<link rel="stylesheet" href="./js/Control.FullScreen.css" />
+
+<script src="./js/leaflet.js"></script>
+<script src="./js/leaflet-hash.js"></script>
+<script src="./js/leaflet-search.js"></script>
+<script src='./js/Leaflet.LocationShare.js'></script>	
+<script src="./js/Control.Coordinates.js"></script>
+<script src="./js/Control.FullScreen.js"></script>
+
+<style>
+html, body {
+  height: 98%;
+  margin: 0;
+}
+#map {height: 99%;}
+</style>
 </head>
-
 <body>
-
-  <p>Начало документа...</p>
-  <script>
-    alert( 'Привет, Мир!' );
-  </script>
-
-  <p>...Конец документа</p>
+Карта
+	<div id='map'></div>
 
 </body>
-
 </html>
