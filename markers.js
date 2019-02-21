@@ -8,33 +8,60 @@ Icon.RuinsLab	= L.icon({iconUrl:'./img/markers/IconRuins.png',	iconSize:[22,34],
 Icon.Village	= L.icon({iconUrl:'./img/markers/IconVillage.png',	iconSize:[32,32],});Icon.Village.name	= 'Деревня';
 
 var arr_markers = [
-{type:'City',	nameRU:'Адмаг',				name:'Admag',			x:447, y:197,	title:'<i>Королевство Шеков</i><br>столица фракции, находящаяся в северной области региона Пустыня Стенна, прямо на возвышенности. Здесь можно отыскать башню Гильдии Воров.'}, 
-{type:'City',	nameRU:'Акула',				name:'Shark',			x:334, y:340,	title:'Находится в Болотах и является пристанищем 5 разных банд.'},
+{type:'City',	nameRU:'Адмаг',				name:'Admag',			x:447, y:197,	title:'<i>Королевство Шеков</i><br>столица фракции, находящаяся в северной области региона Пустыня Стенна, прямо на возвышенности. Здесь можно отыскать башню Гильдии Воров.<a href="https://kenshi.fandom.com/ru/wiki/Адмаг" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Акула',				name:'Shark',			x:334, y:340,	title:'Находится в Болотах и является пристанищем 5 разных банд.<a href="https://kenshi.fandom.com/ru/wiki/Акула" target="_blank">На Wiki</a>'},
+
 {type:'City',	nameRU:'Барк',				name:'Bark',			x:869, y:798,	title:'<i>Союзные города</i><br>прибрежный населенный пункт, находящийся в районе, именуемом Великая пустыня.<a href="https://kenshi.fandom.com/ru/wiki/Барк" target="_blank">На Wiki</a>'}, 
-{type:'City',	nameRU:'Безродный',			name:'Mongrel',			x:625, y:219,	title:'можно найти в западной области карты в центральной части Туманных островов. Имеет немало магазинов с редкими товарами.'},
-{type:'City',	nameRU:'Бугристый Холм',	name:'Blister Hill',	x:646, y:373,	title:'<i>Святая Нация</i><br>крупный населенный пункт, находящийся на северо-востоке центральной области мира и способный похвастаться большим количеством различных магазинов.'}, 
+
+{type:'City',	nameRU:'Безродный',			name:'Mongrel',			x:625, y:219,	title:'можно найти в западной области карты в центральной части Туманных островов. Имеет немало магазинов с редкими товарами.<a href="https://kenshi.fandom.com/ru/wiki/Безродный" target="_blank">На Wiki</a>'},
+
+{type:'City',	nameRU:'Бугристый Холм',	name:'Blister Hill',	x:646, y:373,	title:'<i>Святая Нация</i><br>крупный населенный пункт, находящийся на северо-востоке центральной области мира и способный похвастаться большим количеством различных магазинов.<a href="https://kenshi.fandom.com/ru/wiki/Бугристый Холм" target="_blank">На Wiki</a>'}, 
+
 {type:'City',	nameRU:'Выдержка Скитальца',name:"Drifter's Last",	x:109, y:228,	title:'<i>Союзные города</i><br>находится в юго-западной области мира в регионе под названием Крюк. Рядом с ним можно найти фермы, из-за которых в окрестностях часто встречаются фермеры-мятежники.<a href="https://kenshi.fandom.com/ru/wiki/Выдержка_Скитальца" target="_blank">На Wiki</a>'}, 
-{type:'City',	nameRU:'Грань',				name:'Brink',			x:480, y:710,	title:'<i>Союзные города</i><br>можно отыскать в восточной области карты в регионе под названием Побережье Штормгапа.'}, 
-{type:'City',	nameRU:'Груз',				name:'Heft',			x:741, y:734,	title:'<i>Союзные города</i><br>столица фракции, расположенная на южной стороне Великой пустыни.'}, 
+
+{type:'City',	nameRU:'Грань',				name:'Brink',			x:480, y:710,	title:'<i>Союзные города</i><br>можно отыскать в восточной области карты в регионе под названием Побережье Штормгапа.<a href="https://kenshi.fandom.com/ru/wiki/Грань" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Груз',				name:'Heft',			x:741, y:734,	title:'<i>Союзные города</i><br>столица фракции, расположенная на южной стороне Великой пустыни.<a href="https://kenshi.fandom.com/ru/wiki/Груз" target="_blank">На Wiki</a>'}, 
+
 {type:'City',	nameRU:'Катун',				name:'Catun',			x:221, y:476,	title:'<i>Союзные города</i><br>находится в регионе под названием Поля Костей. Знаменит своим магазином оружия Катунских Мастеров.<a href="https://kenshi.fandom.com/ru/wiki/Катун" target="_blank">На Wiki</a>'}, 
+
 {type:'City',	nameRU:'Клаунстэди',		name:'Clownsteady',		x:187, y:291,	title:'<i>Союзные города</i><br>Находится в юго-западной области мира на границе региона Южные болота.<a href="https://kenshi.fandom.com/ru/wiki/Клаунстэди" target="_blank">На Wiki</a>'}, 
-{type:'City',	nameRU:'Край Мира',			name:"World's End",		x:791, y:416,	title:'<i>Техноохотники</i><br>столица фракции, находящаяся в Руке Оркана. Знаменита своим университетом Машинистов, хранящим в себе разные артефакты и технологические вещи.'}, 
-{type:'City',	nameRU:'Плохие зубы',		name:'Bad Teeth',		x:566, y:386,	title:'<i>Святая Нация</i><br>хорошо защищенный город, который можно отыскать на горном перевале «зеленой» зоны Гордость Окрана.'}, 
-{type:'City',	nameRU:'Ровная лагуна',		name:'Flats Lagoon',	x:337, y:564,	title:'<i>Техноохотники</i><br>находится в одноименном районе, к востоку от болота.'}, 
-{type:'City',	nameRU:'Рыбный остров',		name:'Fish Isle',		x:87,  y:471,	title:'находится'},
-{type:'City',	nameRU:'Скачок',			name:'Spring',			x:288, y:679,	title:'находится в регионе Авантюра Стоба. Тут обитают противники работорговли.'},
-{type:'City',	nameRU:'Скуин',				name:'Squin',			x:445, y:288,	title:'<i>Королевство Шеков</i><br>можно отыскать в западной области Пограничной Зоны. В нем имеются бары и базовые магазины. Здесь имеются сравнительно безопасные месторождения меди и железа.'}, 
-{type:'City',	nameRU:'Ссылка Кат-Лона',	name:"Cat-Lon's Exile",	x:74,  y:858,	title:'Описание'}, 
-{type:'City',	nameRU:'Стоат',				name:'Stoat',			x:740, y:617,	title:'<i>Союзные города</i><br>расположен в юго-западной области Великой пустыни.'}, 
-{type:'City',	nameRU:'Столица людоедов',	name:'Cannibal Capital',x:875, y:289,	title:'находится'},
+
+{type:'City',	nameRU:'Край Мира',			name:"World's End",		x:791, y:416,	title:'<i>Техноохотники, столица фракции</i><br>,Край Мира это отдалённая цитадель Университета Машинистов. Используется Техохотниками, как основная база, при исследовании севера. находящаяся в Руке Оркана. Знаменита своим университетом Машинистов, хранящим в себе разные артефакты и технологические вещи.<a href="https://kenshi.fandom.com/ru/wiki/Край Мира" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Плохие зубы',		name:'Bad Teeth',		x:566, y:386,	title:'<i>Святая Нация</i><br>хорошо защищенный город, который можно отыскать на горном перевале «зеленой» зоны Гордость Окрана.<a href="https://kenshi.fandom.com/ru/wiki/Плохие зубы" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Ровная лагуна',		name:'Flats Lagoon',	x:337, y:564,	title:'<i>Техноохотники</i><br>находится в одноименном районе, к востоку от болота.<a href="https://kenshi.fandom.com/ru/wiki/Ровная лагуна" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Рыбный остров',		name:'Fish Isle',		x:87,  y:471,	title:'<i>Рыболюды</i><a href="https://kenshi.fandom.com/ru/wiki/Рыбный остров" target="_blank">На Wiki</a>'},
+
+{type:'City',	nameRU:'Скачок',			name:'Spring',			x:288, y:679,	title:'находится в регионе Авантюра Стоба. Тут обитают противники работорговли.<a href="https://kenshi.fandom.com/ru/wiki/Скачок" target="_blank">На Wiki</a>'},
+
+{type:'City',	nameRU:'Скуин',				name:'Squin',			x:445, y:288,	title:'<i>Королевство Шеков</i><br>можно отыскать в западной области Пограничной Зоны. В нем имеются бары и базовые магазины. Здесь имеются сравнительно безопасные месторождения меди и железа.<a href="https://kenshi.fandom.com/ru/wiki/Скуин" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Ссылка Кат-Лона',	name:"Cat-Lon's Exile",	x:74,  y:858,	title:'Описание<a href="https://kenshi.fandom.com/ru/wiki/Ссылка Кат-Лона" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Стоат',				name:'Stoat',			x:740, y:617,	title:'<i>Союзные города</i><br>расположен в юго-западной области Великой пустыни.<a href="https://kenshi.fandom.com/ru/wiki/Стоат" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Столица людоедов',	name:'Cannibal Capital',x:875, y:289,	title:'<a href="https://kenshi.fandom.com/ru/wiki/Столица людоедов" target="_blank">На Wiki</a>'},
+
 {type:'City',	nameRU:'Стопка',			name:'Stack',			x:542, y:309,	title:'<i>Святая Нация</i><br>большое поселение, которое базируется в юго-восточной области центральной части мира на границе фракции. Находится неподалеку от Хаба и Западного Улья, поэтому является неплохим местом для воров и торговцев.<a href="https://kenshi.fandom.com/ru/wiki/Стопка" target="_blank">На Wiki</a>'}, 
-{type:'City',	nameRU:'Траур',				name:'Mourn',			x:278, y:542,	title:'<i>Техноохотники</i><br>полуразрушенное поселение, находящееся в районе Поля Костей. Тут обитает Большая Белая Горилла.'}, 
+
+{type:'City',	nameRU:'Траур',				name:'Mourn',			x:278, y:542,	title:'<i>Техноохотники</i><br>полуразрушенное поселение, находящееся в районе Поля Костей. Тут обитает Большая Белая Горилла.<a href="https://kenshi.fandom.com/ru/wiki/Траур" target="_blank">На Wiki</a>'}, 
+
 {type:'City',	nameRU:'Хаб',				name:'The Hub',			x:488, y:326,	title:'Разрушен, находится в западной области карты в регионе под названием Пограничье. Тут обитают различные преступники и изгои.<a href="https://kenshi.fandom.com/ru/wiki/Хаб" target="_blank">На Wiki</a>'},
-{type:'City',	nameRU:'Хен',				name:'Heng',			x:641, y:663,	title:'<i>Союзные города</i><br>укрепленный населенный пункт, основанный в районе Хен.'}, 
+
+{type:'City',	nameRU:'Хен',				name:'Heng',			x:641, y:663,	title:'<i>Союзные города</i><br>укрепленный населенный пункт, основанный в районе Хен.<a href="https://kenshi.fandom.com/ru/wiki/Хен" target="_blank">На Wiki</a>'}, 
+
 {type:'City',	nameRU:'Чёрная Пустыня',	name:'Black Desert City',x:543,y:529,	title:'находится в центральной области Мертвых земель. Тут обитают скелеты.<a href="https://kenshi.fandom.com/ru/wiki/Чёрная_пустыня_(город)" target="_blank">На Wiki</a>'},
-{type:'City',	nameRU:'Чёрная Ссадина',	name:'Black Scratch',	x:483, y:789,	title:'<i>Техноохотники</i><br>находится в восточной области карты в Запределье. Она славится своей Большой библиотекой, в которой хранятся самые разнообразные чертежи и книги.'}, 
-{type:'City',	nameRU:'Шо-Баттаи',			name:'Sho-Battai',		x:819, y:682,	title:'<i>Союзные города</i><br>можно отыскать посередке Великой пустыни.'}, 
-{type:'City',	nameRU:'Южный улей',		name:'Southern Hive',	x:145, y:615,	title:'находится'},
+
+{type:'City',	nameRU:'Чёрная Ссадина',	name:'Black Scratch',	x:483, y:789,	title:'<i>Техноохотники</i><br>находится в восточной области карты в Запределье. Она славится своей Большой библиотекой, в которой хранятся самые разнообразные чертежи и книги.<a href="https://kenshi.fandom.com/ru/wiki/Чёрная Ссадина" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Шо-Баттаи',			name:'Sho-Battai',		x:819, y:682,	title:'<i>Союзные города</i><br>можно отыскать посередке Великой пустыни.<a href="https://kenshi.fandom.com/ru/wiki/Шо-Баттаи" target="_blank">На Wiki</a>'}, 
+
+{type:'City',	nameRU:'Южный улей',		name:'Southern Hive',	x:145, y:615,	title:'<a href="https://kenshi.fandom.com/ru/wiki/Южный улей" target="_blank">На Wiki</a>'},
+
 {type:'Base',	nameRU:'Застава стражников',		name:'Guard Outpost',		x:796.8, y:511.8,	title:'Описание'}, 
 {type:'Base',	nameRU:'Застава стражников',		name:'Guard Outpost',		x:827.6, y:512.5,	title:'Описание'}, 
 {type:'Base',	nameRU:'Разорённая деревня',		name:'Ravaged Hamlet',		x:789.1, y:522.9,	title:'Описание'}, 
