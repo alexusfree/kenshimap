@@ -43,6 +43,23 @@ var layerBaseMapZonesTuvka = L.tileLayer("map_zone_tuvka/{z}/{x}/{y}.jpg", {
     continuousWorld: true,
 	attribution: '<a href="https://t.me/alexusfree" target="_blank"> Телеграмм</a> | <a href="mailto:alexusfree@gmail.com?subject=Вопрос по карте Kenshi" target="_blank"> Почта</a>',
 });
+
+var layerBaseMapZones2 = L.tileLayer("map_zones_2/{z}/{x}/{y}.jpg", {
+    minNativeZoom: 1,
+    maxNativeZoom: 5,
+    noWrap: true,
+    continuousWorld: true,
+	attribution: '<a href="https://t.me/alexusfree" target="_blank"> Телеграмм</a> | <a href="mailto:alexusfree@gmail.com?subject=Вопрос по карте Kenshi" target="_blank"> Почта</a>',
+});
+
+var layerBaseMapFertility = L.tileLayer("map_Fertility/{z}/{x}/{y}.jpg", {
+    minNativeZoom: 0,
+    maxNativeZoom: 5,
+    noWrap: true,
+    continuousWorld: true,
+	attribution: '<a href="https://t.me/alexusfree" target="_blank"> Телеграмм</a> | <a href="mailto:alexusfree@gmail.com?subject=Вопрос по карте Kenshi" target="_blank"> Почта</a>',
+});
+
 var layerBaseMap		= L.tileLayer("map/{z}/{x}/{y}.jpg", {
     minNativeZoom: 0,
     maxNativeZoom: 5,
@@ -55,6 +72,8 @@ var baseMaps = {
 	"Карта с локациями": layerBaseMapLoc,            
 	'Карта с зонами': layerBaseMapZones,
 	'Карта с зонами от Тувки': layerBaseMapZonesTuvka,
+	'Карта с зонами от Обновленная': layerBaseMapZones2,
+	'Карта плодородности': layerBaseMapFertility,
 	'"Чистая" карта': layerBaseMap,
 };
 			 
